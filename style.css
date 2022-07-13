@@ -1,3 +1,91 @@
 *{
     margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    margin-bottom: 200px;
+
+}
+section{
+
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    height: 1000px;
+}
+.overlay{
+    background-image: linear-gradient(transparent, black);
+    height: 1000px;
+}
+.image img{
+    height: 100px;
+    width: 130px;
+    float: left;
+    padding-right: 100px;
+    margin-left: 200px;
+}
+.top-nav{
+    margin-left: 200px;
+    padding-top: 50px;
+}
+.top-nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding-left: 15px;
+    float: left;
+}
+.top-nav a:hover{
+    border-bottom: 2px solid rgb(49,215,169);
+}
+.link-button{
+    text-decoration: none;
+    border: none;
+    background-image: linear-gradient(50deg,rgb(242,69,81), rgb(85,96,255));
+    font-size: 20px;
+    color: white;
+    border-radius: 40px;
+    padding: 10px 25px;
+    margin-left: 20px;
+}
+.link-button:hover{
+    box-shadow: 10px 10px 50px rgb(85,96,255) ;
+    
+}
+.content p{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    margin-top: 10px;
+
+}
+.tittle{
+    font-size: 50px;
+    color: white;
+    height: 100px;
+    font-weight: bold;
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.slider{
+    color: rgb(49,215,169);
+    margin-left: 12px;
+    box-sizing: border-box;
+    animation: slider 6s linear infinite
+}
+@keyframes slider{
+    0%{ margin-top: -400px; }
+    10%{ margin-top: -200px; }
+    30%{ margin-top: -200px; }
+    40%{ margin-top: 0px; }
+    60%{ margin-top: 0px; }
+    70%{ margin-top: 200px; }
+    100%{ margin-top: 200px; }
 }
