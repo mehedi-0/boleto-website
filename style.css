@@ -82,10 +82,10 @@ section{
 }
 @keyframes slider{
     0%{ margin-top: -400px; }
-    10%{ margin-top: -200px; }
+    5%{ margin-top: -200px; }
     30%{ margin-top: -200px; }
-    40%{ margin-top: 0px; }
-    60%{ margin-top: 0px; }
+    35%{ margin-top: 0px; }
+    65%{ margin-top: 0px; }
     70%{ margin-top: 200px; }
     100%{ margin-top: 200px; }
 }
